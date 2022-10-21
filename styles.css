@@ -60,8 +60,19 @@ p {
   color: #c7cae6;
 }
 
+button {
+  background-color: #3882f6;
+  color: #F9FAF8;
+  border: none;
+  font-family: roboto;
+  font-size: 18px;
+  padding: 5px 20px;
+  border-radius: 7px;
+}
+
 #crown {
   align-self: center;
-  width: 600px;
-  height: 300px;
+  width: 650px;
+  height: 350px;
+  border-radius: 15px;
 }/*# sourceMappingURL=styles.css.map */
