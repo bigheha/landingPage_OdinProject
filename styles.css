@@ -5,7 +5,13 @@ body {
 
 header {
   background-color: #1f2937;
-  padding: 0px 200px;
+  padding: 0px 250px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bolder;
 }
 
 nav {
@@ -26,10 +32,36 @@ a {
 }
 
 a:visited {
-  color: white;
+  color: #F9FAF8;
 }
 
-.logo {
-  font-size: 24px;
+a:hover {
+  color: #b8b8b8;
+}
+
+.herobox {
+  margin: 90px 0px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroItem {
+  width: 50%;
+}
+
+h1 {
   color: #F9FAF8;
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+p {
+  color: #c7cae6;
+}
+
+#crown {
+  align-self: center;
+  width: 600px;
+  height: 300px;
 }/*# sourceMappingURL=styles.css.map */
