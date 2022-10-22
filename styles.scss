@@ -67,9 +67,9 @@ button {
     background-color: #3882f6;
     color: #F9FAF8;
     border: none;
-    font-family: roboto;
-    font-size: 18px;
+    font: 18px roboto;
     padding: 5px 20px;
+    margin-top: 5px;
     border-radius: 7px;
 }
 
@@ -90,7 +90,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    
+    margin-bottom: 100px;
 }
 
 .icon {
@@ -106,9 +106,16 @@ h2 {
     border-radius: 18px;
 }
 
-p {
+.iconText {
     font-size: 18px;
     color: #969696;
     text-align: justify;
     margin: 0;
+}
+
+#quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font: italic 36px lighter roboto;
+    text-align: center;
 }
