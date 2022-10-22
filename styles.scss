@@ -90,7 +90,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .icon {
@@ -113,9 +113,35 @@ h2 {
     margin: 0;
 }
 
-#quote {
+#quoteSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #e5e7eb;
+    padding: 40px;
+}
+
+#quote {
     color: #1f2937;
-    font: italic 36px lighter roboto;
+    font: italic lighter 36px roboto;
     text-align: center;
+}
+
+#author {
+    text-align: right;
+    padding-right: 350px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+#actionSection {
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 20px;
+    color: #F9FAF8;
+    margin: 80px 160px;
+}
+
+#actionText {
+    
 }
